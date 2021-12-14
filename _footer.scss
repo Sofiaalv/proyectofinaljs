@@ -1,0 +1,44 @@
+footer>div>a {
+    align-self: center;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: $primary;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5em;
+    margin-top: 1em;
+    width: 100%;
+    background-color: rgb(245, 244, 244);
+    font-family: 'Roboto';
+    font-style:italic;
+    font-size: 16px;
+}
+
+.footer__redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #c79393;
+}
+
+.footer__redes:hover{
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
+.footer__iconos{
+    color: $primary;
+    margin: 0.313em;
+    height: 1em;
+}
+
+
+
+

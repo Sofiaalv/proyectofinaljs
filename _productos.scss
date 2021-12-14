@@ -1,0 +1,26 @@
+.product {
+	padding: 0.625em;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin-bottom: 5px; 
+}
+
+
+.product__zoom {
+    padding: 3.125em;
+    transition: transform .2s;
+    width: 18.75em;
+    margin: 0 auto;
+}
+
+.product__zoom:hover {
+    transform: scale(1.1)
+}
+
+.hide, .remove{
+    display: none;
+}
+
+

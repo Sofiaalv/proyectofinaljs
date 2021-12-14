@@ -1,0 +1,38 @@
+$primary: #ad6783;
+
+$theme-colors:(
+    "primary": $primary,
+);
+
+@import "header";
+@import "footer";
+@import "body";
+@import "contact";
+@import "chart";
+@import "productos";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.centrado {
+    text-align: center;
+    padding: 2em;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.padding {
+    padding-top: 2em;
+}
+
+.clima{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
